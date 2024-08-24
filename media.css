@@ -1,0 +1,406 @@
+*,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: astrid, sinerva, butler;
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  text-decoration: none;
+  list-style-type: none;
+}
+
+body {
+  display: grid;
+  min-height: 300vh;
+  background: linear-gradient(#9c9cff, #fffada);
+  width: 100%;
+  cursor: default;
+  overflow-x: hidden;
+}
+
+/* Navbar */
+
+.navbar {
+  position: fixed;
+  width: 100%;
+  height: 100px;
+  backgorund: drop;
+  backdrop-filter: blur(10px);
+  box-shadow: 1px 2px 20px rgba(0, 0, 0, 0.3);
+}
+
+.imglogo {
+  width: 80px;
+  height: 80px;
+  padding: 10px;
+  margin-left: 100px;
+}
+
+.fontlogo {
+  color: white;
+  font-family: astrid;
+  display: flex;
+  font-size: 30px;
+  padding: 10px;
+  margin-left: 190px;
+  margin-top: -80px;
+  text-shadow: 2px 3px 20px white;
+}
+
+.fontlogo2 {
+  background: linear-gradient(90deg, #fffb92, #d9d233);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  width: 300px;
+  font-weight: 700;
+  display: flex;
+  font-size: 30px;
+  margin-left: 290px;
+  margin-top: -55px;
+  font-family: astrid;
+  padding: 10px;
+  text-shadow: 2px 3px 20px #ffd84e;
+}
+
+.listmenu {
+  display: flex;
+  font-size: 20px;
+  margin-left: 900px;
+  margin-top: -40px;
+}
+
+.peserta {
+  color: white;
+  position: relative;
+  font-size: 20px;
+  font-family: "astrid";
+  font-weight: bold;
+}
+
+.peserta::before {
+  content: "PESERTA";
+  position: absolute;
+  width: 0%;
+  overflow: hidden;
+  color: #fffb92;
+  border-right: transparent;
+  transition: 0.5s ease-in-out;
+}
+
+.peserta:hover::before {
+  width: 100%;
+  filter: drop-shadow(0 0 25px #ffd84e);
+}
+
+.tugas {
+  color: white;
+  position: relative;
+  font-size: 20px;
+  font-family: "astrid";
+  font-weight: bold;
+  margin-left: 20px;
+}
+
+.tugas::before {
+  content: "TUGAS";
+  position: absolute;
+  width: 0%;
+  overflow: hidden;
+  color: #fffb92;
+  border-right: transparent;
+  transition: 0.5s ease-in-out;
+}
+
+.tugas:hover::before {
+  width: 100%;
+  filter: drop-shadow(0 0 25px #ffd84e);
+}
+
+.filosofi {
+  color: white;
+  position: relative;
+  font-size: 20px;
+  font-family: "astrid";
+  font-weight: bold;
+  margin-left: 20px;
+}
+
+.filosofi::before {
+  content: "FILOSOFI";
+  position: absolute;
+  width: 0%;
+  overflow: hidden;
+  color: #fffb92;
+  border-right: transparent;
+  transition: 0.5s ease-in-out;
+}
+
+.filosofi:hover::before {
+  width: 100%;
+  filter: drop-shadow(0 0 25px #ffd84e);
+}
+
+.media {
+  color: white;
+  position: relative;
+  font-size: 20px;
+  font-family: "astrid";
+  font-weight: bold;
+  margin-left: 20px;
+}
+
+.media::before {
+  content: "MEDIA";
+  position: absolute;
+  width: 0%;
+  overflow: hidden;
+  color: #fffb92;
+  border-right: transparent;
+  transition: 0.5s ease-in-out;
+}
+
+.media:hover::before {
+  width: 100%;
+  filter: drop-shadow(0 0 25px #ffd84e);
+}
+
+.panitia {
+  color: white;
+  position: relative;
+  font-size: 20px;
+  font-family: "astrid";
+  font-weight: bold;
+  margin-left: 20px;
+}
+
+.panitia::before {
+  content: "PANITIA";
+  position: absolute;
+  width: 0%;
+  overflow: hidden;
+  color: #fffb92;
+  border-right: transparent;
+  transition: 0.5s ease-in-out;
+}
+
+.panitia:hover::before {
+  width: 100%;
+  filter: drop-shadow(0 0 25px #ffd84e);
+}
+
+/* Content */
+
+/* section 1 */
+
+.sec1 {
+}
+
+.blocktema {
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+}
+
+.tema {
+  width: 30%;
+  align-content: center;
+  margin-top: 0px;
+  padding: 10px;
+}
+
+.awan1 {
+  width: 30%;
+  text-align: center;
+  margin-left: -80px;
+  margin-top: 50px;
+}
+
+.awan2 {
+  width: 30%;
+  margin-left: -150px;
+  margin-top: -10px;
+}
+
+.awan3 {
+  width: 70%;
+  margin-top: -250px;
+  margin-left: 800px;
+}
+
+.awanoren1 {
+  width: 20%;
+  margin-top: -120px;
+  margin-left: 1000px;
+}
+
+.awanoren2 {
+  width: 20%;
+  margin-top: -50px;
+}
+
+.awanoren3 {
+  width: 10%;
+  margin-top: -50px;
+  margin-left: 150px;
+}
+
+.awanoren4 {
+  width: 20%;
+  margin-top: -200px;
+  margin-left: 400px;
+}
+
+/* section 2 */
+
+.blokteaser {
+  background: #fffada;
+  border-radius: 20px;
+  border: 2px solid transparent;
+  width: 400px;
+  height: 250px;
+  margin-left: 200px;
+}
+
+.blokjingle {
+  background: #fffada;
+  border-radius: 20px;
+  border: 2px solid transparent;
+  width: 400px;
+  height: 250px;
+  margin-left: 800px;
+  margin-top: -255px;
+}
+
+.bloktwibbon {
+  background: #fffada;
+  border-radius: 20px;
+  border: 2px solid transparent;
+  width: 400px;
+  height: 250px;
+  margin-left: 500px;
+  margin-top: 200px;
+}
+
+.teaser {
+  margin-left: 130px;
+  margin-top: -50px;
+  color: white;
+  font-size: 36px;
+}
+
+.jingle {
+  margin-left: 150px;
+  margin-top: -50px;
+  color: white;
+  font-size: 36px;
+  font-family: astrid;
+}
+
+.twibbon {
+  margin-left: 120px;
+  margin-top: -50px;
+  color: white;
+  font-size: 36px;
+  font-family: astrid;
+}
+
+/* section 3 */
+
+.kumpulanawan {
+  width: 150%;
+  margin-left: -200px;
+  margin-top: 100px;
+}
+
+.bloksec3 {
+  border: 2px solid black;
+  margin-top: -50px;
+  margin-left: -2px;
+  width: 100%;
+  height: 370px;
+  background: #fffada;
+}
+
+.h2footer {
+  margin-top: 100px;
+  margin-left: 150px;
+  font-family: sinerva;
+  color: #cd8492;
+}
+
+.fakultasfooter {
+  margin-top: 10px;
+  margin-left: 150px;
+  font-family: astrid;
+  font-weight: 500;
+}
+
+.univfooter {
+  margin-top: 5px;
+  margin-left: 150px;
+  font-family: astrid;
+  font-weight: 500;
+}
+
+.medsosfooter {
+  margin-left: 600px;
+  margin-top: -100px;
+  font-family: sinerva;
+  color: #cd8492;
+}
+
+.instalogo {
+  width: 2%;
+  margin-left: 597px;
+  margin-top: 5px;
+  color: #cd8492;
+}
+
+.igfooter {
+  margin-left: 630px;
+  margin-top: -30px;
+  font-family: astrid;
+  font-size: 20px;
+}
+
+.griffinfooter {
+  margin-top: -200px;
+  margin-left: 1000px;
+}
+
+.garisfooter {
+  width: 80%;
+  margin-left: 130px;
+  margin-top: 30px;
+}
+
+.borderkanan {
+  width: 7%;
+  margin-left: 1315px;
+  margin-top: -50px;
+}
+
+.borderkiri {
+  width: 7%;
+  margin-left: 5px;
+}
+
+.blokfooter {
+  margin-top: 10px;
+  width: 100%;
+  height: 110px;
+}
+
+.copyright {
+  text-align: center;
+  margin-top: -80px;
+  font-family: sinerva;
+  font-weight: 500;
+  color: #cd8492;
+}
