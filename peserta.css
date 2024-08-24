@@ -17,7 +17,7 @@ li {
 
 body {
   display: grid;
-  min-height: 300vh;
+  min-height: 200vh;
   background: linear-gradient(#9c9cff, #fffada);
   width: 100%;
   cursor: default;
@@ -207,10 +207,33 @@ body {
   align-content: center;
 }
 
+.btncek {
+  background: #531c9c;
+  text-alignc: center;
+  justify-content: center;
+  align-content: center;
+  border: 1px solid black;
+  border-radius: 20px;
+  width: 300px;
+  height: 50px;
+  margin-left: 550px;
+  margin-top: 20px;
+  color: white;
+  font-family: sinerva;
+  filter: drop-shadow(0 0 5px #531c9c);
+}
+
+.btncek:hover {
+  background: white;
+  color: #531c9c;
+  filter: drop-shadow(0 0 25px white);
+}
+
 .tema {
   width: 60%;
   align-content: center;
-  margin-top: 0px;
+  text-align: center;
+  margin-top: 100px;
   padding: 10px;
 }
 
@@ -232,138 +255,17 @@ body {
   margin-left: 800px;
 }
 
-.awanoren1 {
-  width: 20%;
-  margin-top: -120px;
-  margin-left: 1000px;
-}
-
-.awanoren2 {
-  width: 20%;
-  margin-top: -50px;
-}
-
-.awanoren3 {
-  width: 10%;
-  margin-top: -50px;
-  margin-left: 150px;
-}
-
-.awanoren4 {
-  width: 20%;
-  margin-top: -200px;
-  margin-left: 400px;
-}
-
 /* section 2 */
 
-.bloksec2 {
-  justify-content: center;
+.sec2 {
+  width: 100%;
+  height: 1000px;
+}
+
+.griffin {
+  width: 70%;
   text-align: center;
-}
-
-.timeline {
-  font-size: 64px;
-  color: white;
-  font-family: sinerva;
-}
-
-.borderats {
-  width: 20%;
-  margin-top: 50px;
-  margin-left: -12px;
-}
-
-.borderbwh {
-  width: 20%;
-  margin-left: 12px;
-}
-
-.blokday1 {
-  width: 300px;
-  height: 200px;
-  border: 1px solid transparent;
-  background: #fffada;
   margin-left: 250px;
-  margin-top: 150px;
-  border-radius: 20px;
-  box-shadow: 5px 5px 20px grey;
-}
-
-.day1 {
-  justify-content: center;
-  text-align: center;
-  margin-top: 50px;
-  font-size: 36px;
-  font-family: sinerva;
-  color: #cd8492;
-}
-
-.tgl1 {
-  text-align: center;
-  justify-content: center;
-  margin-top: 30px;
-  font-family: sinerva;
-  font-size: 24px;
-  color: #cd8492;
-}
-
-.blokday2 {
-  width: 300px;
-  height: 200px;
-  border: 1px solid transparent;
-  background: #fffada;
-  margin-left: 560px;
-  margin-top: 100px;
-  border-radius: 20px;
-  box-shadow: 5px 5px 20px grey;
-}
-
-.day2 {
-  justify-content: center;
-  text-align: center;
-  margin-top: 50px;
-  font-size: 36px;
-  font-family: sinerva;
-  color: #cd8492;
-}
-
-.tgl2 {
-  text-align: center;
-  justify-content: center;
-  margin-top: 30px;
-  font-family: sinerva;
-  font-size: 24px;
-  color: #cd8492;
-}
-
-.blokday3 {
-  width: 300px;
-  height: 200px;
-  border: 1px solid transparent;
-  background: #fffada;
-  margin-left: 870px;
-  margin-top: 100px;
-  border-radius: 20px;
-  box-shadow: 5px 5px 20px grey;
-}
-
-.day3 {
-  justify-content: center;
-  text-align: center;
-  margin-top: 50px;
-  font-size: 36px;
-  font-family: sinerva;
-  color: #cd8492;
-}
-
-.tgl3 {
-  text-align: center;
-  justify-content: center;
-  margin-top: 30px;
-  font-family: sinerva;
-  font-size: 24px;
-  color: #cd8492;
 }
 
 /* section 3 */
@@ -371,12 +273,12 @@ body {
 .kumpulanawan {
   width: 150%;
   margin-left: -200px;
-  margin-top: 100px;
+  margin-top: 0px;
 }
 
 .bloksec3 {
   border: 2px solid black;
-  margin-top: -50px;
+  margin-top: -20px;
   margin-left: -2px;
   width: 100%;
   height: 370px;
@@ -415,7 +317,6 @@ body {
   width: 2%;
   margin-left: 597px;
   margin-top: 5px;
-  color: #cd8492;
 }
 
 .igfooter {
